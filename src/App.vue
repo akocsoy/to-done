@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeaderSection></HeaderSection>
+  <InputField></InputField>
+  <ToastMessage/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HeaderSection from './components/HeaderSection.vue';
+import InputField from './components/InputField.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HeaderSection,
+    InputField
+}
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family:"Silkscreen";
+  
+  font-style: normal;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+@font-face {
+  font-family: "Silkscreen";
+  src: url("Silkscreen-Regular.ttf");
 }
 </style>
