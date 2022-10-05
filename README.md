@@ -1,6 +1,7 @@
 # to-done
 ```
 A simple todo app using fake api with json-server, vuex and primevue
+```
 
 ## Project setup
 ```
